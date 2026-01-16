@@ -1,34 +1,72 @@
-
+html {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(128, 128, 157);
+}
 
 .menu-bar {
-  background-color: lavenderblush;
-  display: flex;
-  justify-content: flex-start;
-  box-sizing: border-box;
+    background-color: lavenderblush;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .item {
-  color: rgb(128, 128, 157);
-  background-color: transparent;
-  font-size: 18px;
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 14px 20px;
+    color: rgb(128, 128, 157);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
 }
 
 .item.title {
-  font-weight: 600;
+    font-weight: 600;
 }
 
 a {
-  text-decoration: none;
-  transition: all 0.4s;
-  position: relative;
+    text-decoration: none;
+    transition: all 0.4s;
+    position: relative;
 }
 
 a:hover {
-  background-color: rgba(191, 151, 165, 0.299);
-  border-radius: 50%;
+    background-color: rgba(191, 151, 165, 0.299);
+    border-radius: 50%;
 }
 
+body {
+    background-color: rgb(255, 252, 223);
+}
 
+/* styles.css */
+p {
+    font-size: 16px;
+    /* Default size for all paragraphs */
+}
+
+.large-paragraph {
+    font-size: 24px;
+    /* A specific class for larger paragraphs */
+}
+
+table {
+    font-family: "Emilys Candy", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(128, 128, 157);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid rgb(223, 218, 178);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(223, 218, 178);
+}
